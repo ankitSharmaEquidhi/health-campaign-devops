@@ -4,10 +4,10 @@
 cluster_name: "burundi-1"
 
 # Replace with ssh key name you want
-ssh_key_name: "testhealth-k8supgrade-ssh-key" 
+ssh_key_name: "burundi-1" 
 
 # Replace with public key which you want to add in your EC2 machines # ssh key which you want to add in your EC2 machines
-public_ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCHcOtwON5v3csYdki9DW1n2BkC2GmzeD86rTkCKSu9GWQOw8PdGabMfppvvjYlmOLlu+WzhM6+eHUXhtS6FaMert71oHUh/mvzb3KC4VJ1ZhpZXMyvbqV2RoOyrseUqwShaTfaH+BypFBaZm52tP1gzfAzSY68UWiQnUXhiNBBfjHhFbfnehEDeN0VZSiH1L27n8Ng2S6xLwZ8ovCOBukJuQ9Q0c5LqV4Nu6YYSERE0qMIDHIM7qvDWMsv8WOe32uBrUW99Tp9+Y0EAnylfS/FvnEh0zT1h5cRjoXYOOOQ0b4eR8qBbY4Zwod2ZKZ8mfzvkUci3qAp4AfLEWYkUe9x"
+public_ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDhBe77eDJbL9LHFLcxkk6ojuFKXGK2LnXnPzLx19bxn4hD4fiyTqNKAFPFqDZHOsYAzTHCX9/PeLhQ9quU+gObveMol4r5BjpSJQkNlPuXjEhakyRJUR1crSPIFd6+InF64niC4QZMv+a4qxrlhcPMGUcPKsiByjG0ofnjn8c2a0elLfBzmsHEqvnNJzgOvuN20YZt7wn5zOFeIq9Dre1ABYuITUCv0LnY3ocejBgQiRBlvJaeaXu3u3HV3PuNREN0nWwgvN5hmOHT5g1dKVMuZu94XOtT/7hBCxoJqIyWTYK6tWb1cqtBvJsUmfQKUFG7qR8msucyVCW0gYU2tKR"
 
 # Name you want to give to your Database
 # DB name must contain only alphanumeric characters
