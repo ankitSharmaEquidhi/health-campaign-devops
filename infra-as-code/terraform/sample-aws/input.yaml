@@ -1,26 +1,26 @@
 # Replace with the name which you want to give to your EKS cluster
 # Cluster name can have only lowercase alphanumeric characters and hyphens
 # For example: "digit-demo"
-cluster_name: "burundi-1"
+cluster_name: "burundi-training"
 
 # Replace with ssh key name you want
-ssh_key_name: "burundi-1" 
+ssh_key_name: "burundi-training" 
 
 # Replace with public key which you want to add in your EC2 machines # ssh key which you want to add in your EC2 machines
 public_ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDhBe77eDJbL9LHFLcxkk6ojuFKXGK2LnXnPzLx19bxn4hD4fiyTqNKAFPFqDZHOsYAzTHCX9/PeLhQ9quU+gObveMol4r5BjpSJQkNlPuXjEhakyRJUR1crSPIFd6+InF64niC4QZMv+a4qxrlhcPMGUcPKsiByjG0ofnjn8c2a0elLfBzmsHEqvnNJzgOvuN20YZt7wn5zOFeIq9Dre1ABYuITUCv0LnY3ocejBgQiRBlvJaeaXu3u3HV3PuNREN0nWwgvN5hmOHT5g1dKVMuZu94XOtT/7hBCxoJqIyWTYK6tWb1cqtBvJsUmfQKUFG7qR8msucyVCW0gYU2tKR"
 
 # Name you want to give to your Database
 # DB name must contain only alphanumeric characters
-db_name: "burundidb"
+db_name: "burunditrainingdb"
 
 # Replace with DB username you want
 # DB user name must contain only alphanumeric characters
-db_username: "burundi" 
+db_username: "testhealth" 
 
 # Replace with Domain name you want for your web applications
-domain_name: "burundi-1.digit.org"
+domain_name: "burundi-training.digit.org"
 
 # Replace with the name you want to give to your S3 bucket which is used to store the terraform states
-terraform_state_bucket_name: "burundi-1"
+terraform_state_bucket_name: "burundi-training"
 
 
